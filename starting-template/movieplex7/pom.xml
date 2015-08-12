@@ -16,6 +16,8 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+
+
     </dependencies>
 
     <build>
@@ -42,6 +44,7 @@
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>1.0.2.Final</version>
             </plugin>
+
         </plugins>
     </build>
 

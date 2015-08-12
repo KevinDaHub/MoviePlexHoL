@@ -129,10 +129,7 @@ public class Sales implements Serializable {
             return false;
         }
         Sales other = (Sales) object;
-        if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
-            return false;
-        }
-        return true;
+        return !((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id)));
     }
 
     @Override
